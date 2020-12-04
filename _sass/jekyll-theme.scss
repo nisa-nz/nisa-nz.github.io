@@ -42,30 +42,30 @@ table {
 Theme Styles
 *******************************************************************************/
 :root {
-  --dark-shade0: #23292d;
-  --dark-shade1: #42474b;
-  --dark-shade2: #616668;
-  --dark-shade3: #808486;
-  --dark-shade4: #a0a2a4;
-  --dark-shade5: #bfc0c2;
-  --dark-shade6: #dedfdf;
-  --dark-shade7: #fdfdfd;
-  --dark-accent0: #ef4e7c;
-  --dark-accent1: #f37055;
-  --dark-accent2: #f79532;
-  --dark-accent3: #6ebb82;
-  --dark-accent4: #09b399;
-  --dark-accent5: #1299ad;
-  --dark-accent6: #5073b8;
-  --dark-accent7: #a067ab;
+  --shade0: #23292d;
+  --shade1: #42474b;
+  --shade2: #616668;
+  --shade3: #808486;
+  --shade4: #a0a2a4;
+  --shade5: #bfc0c2;
+  --shade6: #dedfdf;
+  --shade7: #fdfdfd;
+  --accent0: #ef4e7c;
+  --accent1: #f37055;
+  --accent2: #f79532;
+  --accent3: #6ebb82;
+  --accent4: #09b399;
+  --accent5: #1299ad;
+  --accent6: #5073b8;
+  --accent7: #a067ab;
 }
 
 
 body {
   box-sizing: border-box;
-  color:var(--dark-shade6);
-  background: var(--dark-shade0);
-  font-size: 16px;
+  color:var(--shade7);
+  background: var(--shade0);
+  font-size: 1.25rem;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -81,34 +81,34 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 36px;
   font-weight: 700;
-  color:var(--dark-accent1);
+  color:var(--accent7);
 }
 
 h2 {
   padding-bottom: 10px;
   font-size: 32px;
   background: url('../images/bg_hr.png') repeat-x bottom;
-  color:var(--dark-accent0);
+  color:var(--accent6);
 }
 
 h3 {
   font-size: 24px;
-  color:var(--dark-accent3);
+  color:var(--accent5);
 }
 
 h4 {
   font-size: 21px;
-  color:var(--dark-accent5);
+  color:var(--accent4);
 }
 
 h5 {
   font-size: 18px;
-  color:var(--dark-accent6);
+  color:var(--accent3);
 }
 
 h6 {
   font-size: 16px;
-  color:var(--dark-accent7);
+  color:var(--accent2);
 }
 
 p {
@@ -116,13 +116,15 @@ p {
 }
 
 footer p {
-  color: var(--dark-accent7);
+  color: var(--shade6);
 }
 
 a {
   text-decoration: none;
-  color: var(--dark-accent2);
+  color: var(--accent0);
   text-shadow: none;
+  font-size: 1.5rem;
+  margin: 0 .5rem;
 
   transition: color 0.5s ease;
   transition: text-shadow 0.5s ease;
@@ -138,10 +140,11 @@ a {
 
 a:hover, a:focus {
   text-decoration: underline;
+  color: var(--accent2);
 }
 
 footer a {
-  color: var(--dark-accent2);
+  // color: var(--dark-accent2);
   text-decoration: underline;
 }
 
@@ -320,7 +323,7 @@ Full-Width Styles
 #project_title {
   margin: 0;
   color: var(--dark-shade6);
-  font-size: 42px;
+  font-size: 6rem;
   font-weight: 900;
 
 }
@@ -378,7 +381,7 @@ Full-Width Styles
 }
 
 #main_content {
-  padding-top: 40px;
+  padding-top: 5rem;
 }
 
 #footer_wrap {
@@ -399,20 +402,24 @@ Small Device Styles
 
 @media screen and (max-width: 480px) {
   body {
-    font-size:14px;
+    font-size:1rem;
   }
 
-  #downloads {
-    display: none;
-  }
+  // #downloads {
+  //   display: none;
+  // }
 
+  a {
+    font-size: 1rem;
+  }
+  
   .inner {
     min-width: 320px;
     max-width: 480px;
   }
 
   #project_title {
-  font-size: 32px;
+  font-size: 3rem;
   }
 
   h1 {
