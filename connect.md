@@ -13,4 +13,4 @@ permalink: /connect/
 - [Name Here](#GithubURLHere)
 
 ### useful links
-- [Resuources Repo](#repoLink)
+- [Resuources Repo](https://nisa-nz.github.io/resources/)
