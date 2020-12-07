@@ -24,7 +24,8 @@ email: nisa@example.com
  
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://nisa-nz.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: nisa-twitter
+# twitter_username: nisa-twitter
+github: [metadata]
 github_username:  nisa-nz
 
 # Build settings

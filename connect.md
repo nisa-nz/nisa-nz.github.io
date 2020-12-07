@@ -4,13 +4,13 @@ title: connect
 permalink: /connect/
 ---
 
-# email@email.com
+# nisa.nz.contact@gmail.com
 
 ## current NISA admins
-- [Name Here](#GithubURLHere)
+- [Phillip Shields, President](https://github.com/Phillip-D-Shields)
 - [Name Here](#GithubURLHere)
 - [Name Here](#GithubURLHere)
 - [Name Here](#GithubURLHere)
 
-### useful links
-- [Resuources Repo](https://nisa-nz.github.io/resources/)
+## Resources Vault
+- [Resources Repo](https://nisa-nz.github.io/resources/)

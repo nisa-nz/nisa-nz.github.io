@@ -4,4 +4,8 @@ title: Events
 permalink: /events/
 ---
 
-### calendar or something here
+
+{% include calendar.html %}
+
+
+> ##### add links to github events section
