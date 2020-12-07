@@ -20,11 +20,10 @@
 
 title: NISA
 email: nisa@example.com
-# description: >- # this means to ignore newlines until "baseurl:"
  
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://nisa-nz.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: nisa-twitter
+
 github: [metadata]
 github_username:  nisa-nz
 
