@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+
+
 We are a local crew of IT minded students looking to better our skills and ourselves, or something else inspirational
 
 ## OBJECTIVE
