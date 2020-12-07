@@ -4,22 +4,26 @@ title: About
 permalink: /about/
 ---
 
+# Objective
+Connect our local IT students, leaders, and enthusiasts to create a community of support and development for all members.
+
+# Aims
+
+- Offer educational events for all members
+
+- Create a supportive network for IT students
+
+- Maintain interaction between local professionals and students
+
+- Support and promote open source activity
+
+- Help and contribute to the local community
+
+- To ensure all present and future members receive fair and equal treatment
 
 
-We are a local crew of IT minded students looking to better our skills and ourselves, or something else inspirational
+### We have a [constitution here](CONSTITUTION.md) that outlines what we are about.
 
-## OBJECTIVE
 
-- help connect our local community of IT-minded students, professionals, and enthusiasts
+### We have adopted [The Contributers Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/) as our code of conduct 
 
-### AIMS
-
-- facilitate events that benefit the development of our members
-- embrace and support open source when possible
-- another
-- another
-- last one 
-
-### Events
-
-some info here on our event types or something

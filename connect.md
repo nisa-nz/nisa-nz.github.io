@@ -8,9 +8,9 @@ permalink: /connect/
 
 ## current NISA admins
 - [Phillip Shields, President](https://github.com/Phillip-D-Shields)
-- [Name Here](#GithubURLHere)
-- [Name Here](#GithubURLHere)
-- [Name Here](#GithubURLHere)
+- [Name, Vice-President](#GithubURLHere)
+- [Name, Secretary](#GithubURLHere)
+- [Name, Coordinator](#GithubURLHere)
+- [Name, Lead Facilitator](#GithubURLHere)
 
-## Resources Vault
-- [Resources Repo](https://nisa-nz.github.io/resources/)
+#### Check out our [Resources Vault](https://nisa-nz.github.io/resources/)
