@@ -10802,7 +10802,8 @@ textarea.form-control-lg {
   font-weight: 700;
   margin: 0;
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
-  background-color: #fff;
+  background-color: #646363;
+  color: #fff;
 }
 @media (max-width: 575.98px) {
   .btn-rounded {
@@ -10874,19 +10875,14 @@ textarea.form-control-lg {
   opacity: 1;
 }
 
-.logo-top {
-  height: 4rem;
-  width: 4rem;
-}
-
 .menu {
-  background: linear-gradient(to right, rgba(85, 136, 212, 0.95), #2942ca);
+  background-color: aliceblue;
 }
 .menu ul li {
   padding: 0 0.7rem;
 }
 .menu ul li a {
-  color: rgba(237, 234, 234, 0.918) !important;
+  color: rgba(8, 8, 8, 0.918) !important;
   text-transform: capitalize;
   font-weight: 600;
 }

@@ -1,17 +1,14 @@
     @use '../custom' as *;
     @use '../components/mixins' as *;
-    .logo-top {
-        height: 4rem;
-        width: 4rem;
-    }
+   
     
     .menu {
-        @include gradient;
+        background-color: aliceblue;
         ul {
             li {
                 padding: 0 0.7rem;
                 a {
-                    color: rgba(237, 234, 234, 0.918) !important;
+                    color: rgba(8, 8, 8, 0.918) !important;
                     text-transform: capitalize;
                     font-weight: 600;
                     &:hover {
