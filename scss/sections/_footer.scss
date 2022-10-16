@@ -1,8 +1,9 @@
 @use "../custom" as *;
 @use "../components/mixins" as *;
+
 .footer {
     padding-top: 1rem;
-    background-color: $footer;
+    background-color: $primary;
 }
 
 // Contact options style
@@ -63,9 +64,9 @@
 
 //Copyright content
 .footer-bottom {
-    background-color: $black;
+    background-color: $primary;
     &__copyright {
-        color: $gray-600;
+        color: $white;
         font-weight: 400;
         a {
             color: $gray-300;

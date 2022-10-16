@@ -3,7 +3,7 @@
    
     
     .menu {
-        background-color: aliceblue;
+        background-color: whitesmoke;
         ul {
             li {
                 padding: 0 0.7rem;
@@ -17,7 +17,7 @@
                 }
                 &:last-child {
                     display: none;
-                    @include media-breakpoint-down(sm) {
+                    @include media-breakpoint-down(md) {
                         display: block;
                     }
                 }
