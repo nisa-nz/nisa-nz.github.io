@@ -6,12 +6,12 @@
 @use 'components/buttons';
 // IMPORT The sections;
 @use 'sections/navbar';
+@use 'sections/footer';
 @use 'sections/topics';
 @use 'sections/intro-section';
 @use 'sections/services';
 @use 'sections/portfolio';
 @use 'sections/testimonials';
 @use 'sections/get-started';
-@use 'sections/footer';
 @use 'sections/about';
 @use 'sections/resume';
