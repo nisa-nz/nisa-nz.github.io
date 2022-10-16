@@ -1,0 +1,35 @@
+    @use '../custom' as *;
+    @use '../components/mixins' as *;
+    .logo-top {
+        height: 4rem;
+        width: 4rem;
+    }
+    
+    .menu {
+        @include gradient;
+        ul {
+            li {
+                padding: 0 0.7rem;
+                a {
+                    color: rgba(237, 234, 234, 0.918) !important;
+                    text-transform: capitalize;
+                    font-weight: 600;
+                    &:hover {
+                        color: $white !important;
+                    }
+                }
+                &:last-child {
+                    display: none;
+                    @include media-breakpoint-down(sm) {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    
+    .blog-logo {
+        height: 2.5rem;
+        width: 2.5rem;
+        border-radius: 50%;
+    }

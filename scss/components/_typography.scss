@@ -1,0 +1,55 @@
+@use '../custom' as *;
+.display-2 {
+    margin-bottom: 1rem;
+    text-transform: inherit;
+    font-family: "Open Sans", "Helvetica Neue";
+    &--intro {
+        display: inline-block;
+        font-weight: 400;
+    }
+    &--description {
+        font-size: 1.2rem;
+        text-transform: none;
+        display: block;
+        margin-top: 1.2rem;
+        @include media-breakpoint-up(lg) {
+            font-size: 1.5rem;
+            display: inline-block;
+        }
+    }
+}
+
+.display-3 {
+    font-family: "Open Sans", "Helvetica Neue";
+    font-size: 2.5rem;
+    &--tittle {
+        font-size: 1.5rem;
+        font-weight: 300;
+        font-family: "Open Sans", "Helvetica Neue";
+        display: inline-block;
+        background-image: linear-gradient(to right, $primary, $secondary);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        @include media-breakpoint-up(lg) {
+            font-size: 2rem;
+        }
+    }
+}
+
+.title {
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+// Border right
+.border-right {
+    border-right: 0.1rem solid $gray-300;
+    height: 100%;
+}
+
+// Gradient bg
+.gradient {
+    background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+}

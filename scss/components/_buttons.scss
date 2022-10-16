@@ -1,0 +1,75 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+//contact button
+.btn-rounded {
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
+    position: relative;
+    padding: 0.9375rem 4rem 0.9375rem 1.25rem;
+    font-weight: 700;
+    margin: 0;
+    border: 0.1rem solid rgb($white, 0.6);
+    background-color: $white;
+    span {
+        position: absolute;
+        background-color: $primary;
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-50%);
+        border-radius: 50%;
+    }
+    i {
+        color: $white;
+        font-size: 1rem;
+        line-height: 2.5rem;
+    }
+    &:hover {
+        background-color: $primary;
+        color: $white;
+        span {
+            background-color: rga($black, 0.8);
+        }
+    }
+}
+
+.blog-btn {
+    @include media-breakpoint-up(sm) {
+        right: 1rem;
+    }
+}
+
+.button {
+    text-decoration: none;
+}
+
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: $primary;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+    i {
+        font-size: 1rem;
+        color: $white;
+        line-height: 0;
+        @include absoluteCenter;
+    }
+    &:hover {
+        background: $secondary;
+        color: #fff;
+    }
+}
+
+.back-to-top-active {
+    visibility: visible;
+    opacity: 1;
+}

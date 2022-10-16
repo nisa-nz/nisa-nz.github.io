@@ -1,0 +1,15 @@
+@use "../custom" as *;
+.details {
+    list-style: none;
+    overflow: hidden;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.hidden-mb {
+    display: block;
+    position: relative;
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
+}

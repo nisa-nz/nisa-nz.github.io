@@ -1,0 +1,95 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+.footer {
+    padding-top: 1rem;
+    background-color: $footer;
+}
+
+// Contact options style
+.contact-box {
+    position: relative;
+    &__icon {
+        width: 4rem;
+        stroke: $primary;
+        padding-top: 0.2rem;
+        ;
+        @include media-breakpoint-up(sm) {
+            width: 4rem;
+        }
+    }
+    &__info {
+        padding: 0.4rem;
+        &--title {
+            color: $white;
+            text-decoration: none;
+            font-size: 1.4rem;
+            @include media-breakpoint-up(sm) {
+                font-size: 1.4rem;
+            }
+        }
+        &--subtitle {
+            color: $gray-600;
+            text-decoration: none;
+            font-size: 0.8rem;
+            @include media-breakpoint-up(sm) {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+.underline {
+    width: 60px;
+    height: 2px;
+}
+
+//Footer list style
+.links-list {
+    display: block;
+    list-style-type: none;
+    position: relative;
+    li {
+        margin-bottom: 0.5rem;
+        text-decoration: none;
+        a {
+            color: $white;
+            text-decoration: none;
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}
+
+//Copyright content
+.footer-bottom {
+    background-color: $black;
+    &__copyright {
+        color: $gray-600;
+        font-weight: 400;
+        a {
+            color: $gray-300;
+            text-decoration: none;
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+    a {
+        color: $white;
+        i {
+            font-size: 1rem;
+            margin-left: 1rem;
+            @include media-breakpoint-up(sm) {
+                font-size: 1.6rem;
+            }
+        }
+    }
+    .social {
+        text-align: end;
+        @include media-breakpoint-up(sm) {
+            text-align: center;
+            margin-top: 1rem;
+        }
+    }
+}
