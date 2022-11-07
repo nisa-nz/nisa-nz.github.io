@@ -1,75 +1,97 @@
 @use "../custom" as *;
 @use "../components/mixins" as *;
 .portfolio {
-    padding: 4rem 0;
-    button {
-        text-transform: capitalize;
-    }
+  button {
+    text-transform: capitalize;
+  }
 }
 
 .hello {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 .portfolio-box {
-    position: relative;
-    width: 90%;
-    max-height: 25rem;
-    overflow: hidden;
-    margin-bottom: 1.2rem;
-    border-radius: 100;
-    img {
-        width: 100%;
+  position: relative;
+  width: 90%;
+  align-items: center;
+  max-height: 26rem;
+  overflow: hidden;
+  margin: 1.1rem;
+  border-radius: 100;
+  img {
+    width: 100%;
+    // height: 100%;
+  }
+
+  .name {
+    color: $white;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(transparent, black);
+    height: 25%;
+    width: 100%;
+    opacity: 1;
+    padding: 0 0 0.5rem 0.5rem;
+    h4 {
+      text-transform: uppercase;
+      position: relative;
+      padding-top: 10%;
+    }
+  }
+  .portfolio-info {
+    background-color: rgba($gray-900, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    .caption {
+      color: $white;
+      position: absolute;
+      bottom: 0;
+      padding: 0 0 0.5rem 0.5rem;
+      h4 {
+        text-transform: uppercase;
+        display: block;
+      }
+      .small-pic {
         height: 100%;
+        width: 1.4rem;
+        margin-right: 5px;
+      }
+    }
+  }
+  &:hover {
+    img {
+      transform: scale(1.15);
+      @include transitionProperty;
     }
     .portfolio-info {
-        background-color: rgba($gray-900, 0.8);
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        opacity: 0;
-        visibility: hidden;
-        .caption {
-            color: $white;
-            position: absolute;
-            bottom: 0;
-            padding: 0 0 2rem 2rem;
-            h4 {
-                text-transform: uppercase;
-                display: block;
-            }
-            .small-pic {
-                height: 1.4rem;
-                width: 1.4rem;
-                margin: 0 0.5rem 0.5rem;
-            }
-        }
+      opacity: 1;
+      visibility: visible;
+      @include transitionProperty;
     }
-    &:hover {
-        img {
-            transform: scale(1.5);
-            @include transitionProperty
-        }
-        .portfolio-info {
-            opacity: 1;
-            visibility: visible;
-            @include transitionProperty
-        }
-    }
+  }
 }
 
 .small-icon {
-    font-size: 1.7rem;
-    margin: 0 0.5rem;
-    text-decoration: none;
+  // font-size: 1.7rem;
+  height: 40px;
+  margin: 20px;
+  text-decoration: none;
 }
 
 // changes for NISA below
 .admin-title {
-    padding: 1.5em 0;
+  padding: 1.9em 0;
 }
 
-.portfolio-box {
-    width: 90%;
-    }
+.portfolio-container {
+  width: 100%;
+
+  margin: 1.1rem;
+  .portfolio-item {
+    //   margin: 1rem 2rem;
+  }
+}
