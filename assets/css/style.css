@@ -10897,6 +10897,7 @@ textarea.form-control-lg {
 @media (max-width: 767.98px) {
   .menu ul li:last-child {
     display: block;
+    color: rgba(8, 8, 8, 0.918) !important;
   }
 }
 

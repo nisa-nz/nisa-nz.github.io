@@ -19,6 +19,7 @@
                     display: none;
                     @include media-breakpoint-down(md) {
                         display: block;
+                        color: rgba(8, 8, 8, 0.918)!important;
                     }
                 }
             }
